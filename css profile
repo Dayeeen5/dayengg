@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.profile-picture {
+    width: 150px; /* Set the size of the profile picture */
+    height: 150px; /* Set the size of the profile picture */
+    border-radius: 50%; /* Makes the picture circular */
+    overflow: hidden; /* Ensures any overflow is hidden */
+    border: 5px solid #4CAF50; /* Adds a border around the picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+
+.profile-picture img {
+    width: 100%; /* Makes the image take the full width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes bottom space under the image */
+}
